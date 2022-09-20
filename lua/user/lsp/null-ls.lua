@@ -3,8 +3,8 @@ local null_ls = require('null-ls')
 local formatting = null_ls.builtins.formatting
 
 local sources = {
-        formatting.autopep8,
-        formatting.clang_format,
+    formatting.autopep8,
+    --formatting.clang_format,
     formatting.eslint,
     formatting.stylua,
     -- formatting.ccls,
